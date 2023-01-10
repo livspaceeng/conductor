@@ -13,7 +13,7 @@ dependencies {
     testImplementation project(':conductor-grpc-client')
     testImplementation project(':conductor-json-jq-task')
     testImplementation project(':conductor-http-task')
-    testImplementation "com.netflix.conductor:conductor-es7-persistence"
+    testImplementation "com.netflix.conductor:conductor-es7-persistence:3.13.2"
 
     testImplementation "org.springframework.retry:spring-retry"
 
