@@ -51,9 +51,7 @@ dependencies {
     testImplementation "com.google.protobuf:protobuf-java:${revProtoBuf}"
     testImplementation "io.grpc:grpc-protobuf:${revGrpc}"
     testImplementation "io.grpc:grpc-stub:${revGrpc}"
-    runtimeOnly group: 'com.netflix.conductor', name: 'conductor-postgres-persistence', version: '3.9.1'
-
-
+    runtimeOnly group: 'com.netflix.conductor', name: 'conductor-postgres-persistence', version: '3.13.2'
 }
 
 jar {
