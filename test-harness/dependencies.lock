@@ -118,10 +118,10 @@
             "locked": "2.5.13"
         },
         "org.elasticsearch.client:elasticsearch-rest-client": {
-            "locked": "6.8.12"
+            "locked": "7.6.2"
         },
         "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
-            "locked": "6.8.12"
+            "locked": "7.6.2"
         },
         "org.glassfish.jersey.core:jersey-common": {
             "locked": "2.22.2"
@@ -148,7 +148,7 @@
             "locked": "5.3.22"
         },
         "org.testcontainers:elasticsearch": {
-            "locked": "1.15.3"
+            "locked": "1.17.2"
         },
         "redis.clients:jedis": {
             "locked": "3.3.0"
@@ -635,21 +635,21 @@
         },
         "org.elasticsearch.client:elasticsearch-rest-client": {
             "firstLevelTransitive": [
-                "com.netflix.conductor:conductor-es6-persistence"
+                "com.netflix.conductor:conductor-es7-persistence"
             ],
-            "locked": "6.8.12"
+            "locked": "7.6.2"
         },
         "org.elasticsearch.client:elasticsearch-rest-high-level-client": {
             "firstLevelTransitive": [
-                "com.netflix.conductor:conductor-es6-persistence"
+                "com.netflix.conductor:conductor-es7-persistence"
             ],
-            "locked": "6.8.12"
+            "locked": "7.6.2"
         },
         "org.elasticsearch.client:transport": {
             "firstLevelTransitive": [
-                "com.netflix.conductor:conductor-es6-persistence"
+                "com.netflix.conductor:conductor-es7-persistence"
             ],
-            "locked": "6.8.12"
+            "locked": "7.6.2"
         },
         "org.glassfish.jaxb:jaxb-runtime": {
             "firstLevelTransitive": [
