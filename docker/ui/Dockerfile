@@ -21,5 +21,7 @@ RUN yarn install
 # Copies everything else over to Docker environment
 # node_modules excluded in .dockerignore. 
 COPY ./ui .
+
+RUN apk --no-cache add curl
  
 CMD [ "yarn", "start" ]
